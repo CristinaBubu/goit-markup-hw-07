@@ -23,6 +23,9 @@ h2 {margin: 0;
 p {margin: 0;
 }
 
+    
+
+
 .body-studio {font-family: 'Roboto', sans-serif;
 }
 
@@ -97,7 +100,7 @@ button {margin:0;}
 }
    
 
-.container {width: 1158px;
+.container {max-width: 1158px;
 margin: 0 auto;
 padding: 0 15px;
 }
@@ -604,7 +607,7 @@ padding-bottom: 120px;}
 
 .customers-list {display: flex;
     gap: 24px;
-    height: 88px;
+    /*height: 88px;*/
 }
 
 .customers-list-element {
@@ -775,6 +778,150 @@ placeholder {
 .subscribe-svg {
     margin-left: 16px;
 }
+
+
+
+@media  screen and (width <= 428px) {
+.nav-list {
+    display: none;
+}
+
+.address {
+    display: none;
+}
+
+.header-div {
+    margin: 16px 24px;
+    padding: 0 15px;
+  
+}
+
+/*.hamburger-svg {
+    color: var(--brand-color);
+    fill: var(--brand-color);
+}*/
+
+.hero-titile {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    }
+
+.hero-section {
+    padding: 112px 0;
+    }
+
+.second-section {
+    padding: 96px 0;
+}
+.icon-second-sect {display: none;}
+.flex-list {display: block;}
+.second-and-fourth-section-mini-titles {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-align: center;
+}
+
+.third-section {display: none;}
+
+.another-try {display: block;
+margin: 72px auto;}
+
+.imagine {
+    margin: 0 auto;
+    width: 100%;
+}
+.fifth-section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.customers-list {
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+    
+   }
+    
+.customers-list-element {
+    width: calc((100% - 80px) / 2);
+    margin: 0 auto;
+
+}
+
+.big-div-footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-paragraph-div {
+    margin-right: 0;
+    margin-bottom: 72px;
+}
+
+.logo-footer {
+   margin-right: 0;
+   display: block;
+ text-align: center;
+}
+
+.social-media-footer-paragraph {
+    text-align: center;
+}
+
+.social-meida-footer-list {
+    align-items: center;
+    margin-bottom: 72px;
+}
+
+.subscribe-div {
+    margin: 0 auto;
+}
+
+
+.footer-form {
+    display: flex;
+    flex-wrap: wrap ;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-input {
+    width: 300px;
+    height: 40px;
+    margin: 0 16px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* portfolio page */
