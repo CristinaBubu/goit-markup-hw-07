@@ -310,6 +310,12 @@ button {
     cursor: pointer;
 }
 
+.is-hidden-mobile {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
 .logo-mobile {
     font-family: "Raleway",
         sans-serif;
@@ -1369,11 +1375,7 @@ placeholder {
     
 }
 
-.is-hidden-mobile {
-    visibility: hidden;
-        opacity: 0;
-        pointer-events: none;
-}
+
 
 
 
