@@ -324,10 +324,17 @@ button {
 
 
 .nav-address-div {
+   
     display: flex;
     justify-content: space-between;
     width: 100%;
+
 }
+
+    
+    
+
+
 
 .mobile-close-menu {
     position: absolute;
@@ -998,6 +1005,7 @@ placeholder {
 
 
 @media (min-width: 768px) and (max-width: 1158px) {
+   
 
     .hamburger-menu {
         display: none;
@@ -1343,7 +1351,7 @@ placeholder {
 
 @media screen and (max-width: 768px) {
     .nav-address-div {
-        width: auto;
+       
         position: fixed;
         background-color: var(--background-color);
         right: 0;
@@ -1358,7 +1366,18 @@ placeholder {
         justify-content: space-between;
         box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 
-    }
+    
+}
+
+.is-hidden-mobile {
+    visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+}
+
+
+
+    
 
     .nav-link {
         font-weight: 700;

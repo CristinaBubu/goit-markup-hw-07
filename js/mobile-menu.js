@@ -5,12 +5,15 @@
     modal: document.querySelector("[js-menu-container]"),
   };
 
-  refs.openModalBtn.addEventListener("click", toggleModal);
-  refs.closeModalBtn.addEventListener("click", toggleModal);
+  
+  refs.openModalBtn.addEventListener("click", openModal);
+  refs.closeModalBtn.addEventListener("click", closeModal);
 
-    function toggleModal() {
-    refs.modal.classList.toggle("is-hidden");
-  }
     
- 
+function toggleModal() {
+    refs.modal.classList.toggle("is-hidden-mobile");
+  }
+
+  
+  
 })();
